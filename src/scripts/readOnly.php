@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pageStyle.css">
+    <link rel="stylesheet" href="../styles/defaultStyle.css">
     <title>CRUD | Visualizar Específico</title>
 </head>
 <body>
@@ -45,7 +45,7 @@
         ?>
 
             <h2>Volte para a Página Principal</h2>
-            <a href="index.php" class="button">Página Principal</a>
+            <a href="../../index.php" class="button">Página Principal</a>
             </div>
     </section>
     </main>

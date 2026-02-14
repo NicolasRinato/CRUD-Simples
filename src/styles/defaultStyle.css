@@ -1,20 +1,38 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
     margin: 0;
-    background-color: #D9D8D2;
-    font: normal 15pt Arial;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.body {
+    background-color: #D9D8D2;
+    min-height: 100vh;
+}
+
 
 header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0D0D0D;
     color: white;
-    padding: 5px;
     height: 100px;
 }
+
 main {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-direction: column;
+    min-height: calc( 100vh - 170px);
 
 }
+
 section.first{
     display: flex;
     justify-content: center;
@@ -23,6 +41,7 @@ section.first{
     width: 100%;
     gap: 50px;
 }
+
 div.input{
     display: flex;
     flex-direction: column;
@@ -37,16 +56,17 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;           
-    list-style-type: none;        
-    gap: 10px;
-    margin-right: 50px;
+    list-style-type: none;
 }
 
-nav li {text-decoration: none;}
+nav li {text-decoration: none; padding: 10px 20px;}
 
 nav ul li a {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
+    height: 50px;
     text-decoration: none;
     color: #F2F2F0;
     background-color: #0D0D0D;
@@ -60,7 +80,7 @@ nav ul li a:hover {
     color: #0D0D0D;
 }
 
-input, a {
+input {
     width: 300px;
     height: 50px;
     padding: 3%;
@@ -91,7 +111,9 @@ a.button:hover, input#botao:hover {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #0D0D0D;
     color: #F2F2F0;
     padding: 5px;

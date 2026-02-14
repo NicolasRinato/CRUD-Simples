@@ -19,14 +19,14 @@ $query -> close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pageStyle.css">
-    <title>CRUD | Cadastro OK</title>
+    <link rel="stylesheet" href="../styles/defaultStyle.css">
+    <title>CRUD | Usuario criado</title>
 </head>
 <body>
-    <header><h1>Cadastro Finalizado</h1></header>
+    <header><h1>Usuário <?php echo "$username";?> criado com sucesso!</h1></header>
     <main>
         <h2>Volte para a Página Principal</h2>
-        <a href="index.php" class="button">Página Principal</a>
+        <a href="../../index.php" class="button">Página Principal</a>
     </main>
     <footer><p>&copy; rinato.dev</p></footer>
 </body>

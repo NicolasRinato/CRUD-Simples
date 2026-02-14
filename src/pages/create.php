@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pageStyle.css">
+    <link rel="stylesheet" href="../styles/defaultStyle.css">
     <title>CRUD | Cadastro</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
         <h2>Cadastro</h2>
         <section class="first">
             <div class="input">    
-                <form action="createOk.php" method="post">
+                <form action="createUser.php" method="post">
                     <label for="username">Nome</label><input type="text" name="username" id="username" placeholder="Nome" title="Exemplo: Elon Musk" required minlength="3">
                     <label for="email">Email</label><input type="email" name="email" id="email" placeholder="Email"  title="exemplo@email.com" required>
                     <label for="password">Senha</label><input type="password" name="password" id="password" placeholder="Senha" required minlength="8" title="A senha deve ter pelo menos 8 caracteres">
@@ -23,7 +23,7 @@
             </div>
             <div class="voltar">
                 <h2>Volte para a Página Principal</h2>
-                <a href="index.php" class="button">Página Principal</a>
+                <a href="../../index.php" class="button">Página Principal</a>
             </div>
         </section>
     </main>
