@@ -44,7 +44,7 @@ section.first{
     width: 100%;
 }
 
-.input{
+.form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +54,14 @@ section.first{
     border-radius: 25px;
     width: 350px;
     padding: 10px;
+}
+
+.voltar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 
 nav ul {
@@ -102,7 +110,7 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
-a.button ,input#botao {
+a.button ,#botao {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +123,7 @@ a.button ,input#botao {
     transition: background 0.3s;
 }
 
-a.button:hover, input#botao:hover {
+a.button:hover, #botao:hover {
     background-color: #F2F2F0;
     color: #0D0D0D;
 }

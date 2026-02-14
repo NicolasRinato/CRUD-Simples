@@ -13,7 +13,7 @@
     <main>
         <h2>Criar conta</h2>
         <section class="first">
-            <div class="input">
+            <div class="form">
                 <form action="createUser.php" method="post">
                     
                     <label for="username" class="label-input">Nome</label>
