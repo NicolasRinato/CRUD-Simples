@@ -28,6 +28,8 @@ $query -> close();
         <h2>Volte para a Página Principal</h2>
         <a href="../../index.php" class="button">Página Principal</a>
     </main>
-    <footer><p>&copy; rinato.dev</p></footer>
+        <footer>
+            <p>Copyright &copy; 2026. Todos os direitos reservados. | Desenvolvido por <a href="https://www.instagram.com/nrinato.dev/" target="__blank">nrinato.dev</a></p>
+        </footer>
 </body>
 </html>

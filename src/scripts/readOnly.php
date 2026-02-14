@@ -49,6 +49,8 @@
             </div>
     </section>
     </main>
-    <footer><p>&copy; rinato.dev</p></footer>
+        <footer>
+            <p>Copyright &copy; 2026. Todos os direitos reservados. | Desenvolvido por <a href="https://www.instagram.com/nrinato.dev/" target="__blank">nrinato.dev</a></p>
+        </footer>
 </body>
 </html>
